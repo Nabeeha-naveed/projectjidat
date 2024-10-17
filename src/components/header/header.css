@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@media only screen and (max-width: 768px) {
+.Header-img{
+        background: #000;
+        border-radius: 50%;
+        border: 5px solid #FFD1DC;
+        margin: 20px; 
+        width: 160px;
+        margin-top: 100px;
+    }
+
+    .Header-link{
+        font-size: 22px;
+        color: #863453;
+        text-decoration: none;
+        text-align: center;
+        display: block;
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    font: Tinos;
+}
+
+@media only screen and (max-width: 768px) {
+    .empty{
+        padding: 70px;
+    }
+    .btn{
+        width: 360px;
+        height: 95px;
+        margin: 20px;
+        background: #863453;
+        border: none;
+        font-size: larger;
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    .btn:hover{
+        box-shadow: 6px 6px 5px #6e337b;
+    }
+
+    .btnlink{
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .emptyB{
+        padding: 27px;
+    }
+}    
